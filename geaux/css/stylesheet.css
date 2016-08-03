@@ -1,0 +1,93 @@
+body{
+	font-family: helvetica, sans-serif;
+	font-size: 40px;
+	line-height: 1.6666666667;
+    letter-spacing: -.020em;
+ }
+
+
+
+h1{
+	font-family: 'Russo One', sans-serif;
+}
+
+hr{
+	display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.box{
+	padding: .5em;
+	position:absolute;
+	top: 50%;
+	left: 55%;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+   border: 2px solid black;
+   height: 15em;
+   width: 20em;
+}
+
+
+.byline{
+	position: absolute;
+	top:65%;
+	left: 50%;
+	font:bolder;
+	font-size: 120%;
+	color: #FFE700;
+}
+
+p{
+	padding-top:1em;
+}
+.introdiv{
+	
+	background-image:url("../images/leonard.png");
+	height:70em;
+	width:88.9em;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.section1, .section2, .section3, .intro, .gallery{
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    width: 45em;
+}
+
+video{
+	height: 25em;
+	width: 45em;
+}
+.closed{
+	display: none;
+}
+
+.special{
+	color: gray;
+	font:bolder;
+	font-size: 120%;
+}
+
+.open{
+	display: block;
+}
+
+#vid{
+	display:none;
+}
+
+button{
+	width: 150px;
+	background-color: #00CCEE;
+}
+
